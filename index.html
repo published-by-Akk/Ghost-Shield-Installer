@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCRJNFK0VV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZCRJNFK0VV');
+  </script>
+
   <title>🛡️ Ghost Shield Installer</title>
   <style>
     @font-face {
@@ -376,8 +386,7 @@
   <textarea id="codeMobile" style="position:absolute; left:-9999px; top:-9999px;">javascript:(function()%7Bjavascript%3A(()%3D%3E%7Bwindow.onblur%3Dnull%3Bdocument.onvisibilitychange%3Dnull%3Bwindow.addEventListener('blur'%2Ce%3D%3Ee.stopImmediatePropagation()%2Ctrue)%3Bdocument.addEventListener('visibilitychange'%2Ce%3D%3Ee.stopImmediatePropagation()%2Ctrue)%3Bconst%20oWA%3Dwindow.addEventListener%3Bwindow.addEventListener%3D(t%2C...a)%3D%3Et%3D%3D'blur'%7C%7Ct%3D%3D'visibilitychange'%3Fnull%3AoWA.apply(this%2C%5Bt%2C...a%5D)%3Bconst%20oDA%3Ddocument.addEventListener%3Bdocument.addEventListener%3D(t%2C...a)%3D%3Et%3D%3D'visibilitychange'%3Fnull%3AoDA.apply(this%2C%5Bt%2C...a%5D)%3Bdocument.querySelectorAll('*').forEach(e%3D%3Ee.oncopy%3Dnull)%3Bnavigator.clipboard.writeText%3D()%3D%3EPromise.resolve()%3Bdocument.body.addEventListener('copy'%2Ce%3D%3E%7Be.stopImmediatePropagation()%3Be.stopPropagation()%7D%2Ctrue)%3BsetInterval(()%3D%3Enavigator.clipboard.writeText%3D()%3D%3EPromise.resolve()%2C400)%3Bconst%20b%3Ddocument.createElement('div')%3Bb.innerText%3D'Activated%20on%20this%20page...'%3Bb.style%3D'position%3Afixed%3Bbottom%3A20px%3Bleft%3A12px%3Bbackground%3Argba(0%2C0%2C0%2C0.3)%3Bborder-radius%3A20px%3Bpadding%3A8px%2014px%3Bcolor%3A%230f0%3Bfont-size%3A13px%3Bfont-family%3Asans-serif%3Bz-index%3A99999%3Btransition%3Atransform%200.3s%20ease-in-out'%3Bdocument.body.appendChild(b)%3Blet%20dir%3D1%3BsetInterval(()%3D%3E%7Bb.style.transform%3D%60translateY(%24%7Bdir*2%7Dpx)%60%3Bdir*%3D-1%7D%2C600)%3B%7D)()%7D)()</textarea>
 
 
-  <!-- Place this below the main copy buttons, above the install-title or instructions section -->
-<div style="margin: 18px 0 10px 0; text-align:center;">
+  <div style="margin: 18px 0 10px 0; text-align:center;">
   <a href="#samsungCard"
      style="
        color:#00ff88;
@@ -398,7 +407,6 @@
     <button class="nav-button" onclick="document.getElementById('mobileSection').scrollIntoView({behavior:'smooth'});">📱 Mobile</button>
   </div>
 
-  <!-- Status Report Table & Description START -->
   <div class="status-report-container">
     <div class="status-report-desc">
       <strong>🔐 FINAL STATUS REPORT – “ဖတ်ရန် လိုအပ်သည် ⁉️”</strong><br>
@@ -482,18 +490,14 @@
       <span class="warn">⚠️ အနည်းငယ်သော သတိပေးချက်တစ်ချို့အား Codes ထဲတွင်ဖြစ်နိုင်ပါသည်, သို့သော် ထောက်လှမ်းခြင်း၊ မှတ်တမ်းတင်ခြင်း အများအပြား မတင်နိုင်ပါ။ ပြစ်ချက် တစ်ချက်၊ နှစ်ချက်ဖြင့် အပြစ်ပေးခြင်း မထိနိုင်လောက်ပါ။ 😉 Btw ပိရိပါစေ။</span>
     </div>
   </div>
-  <!-- Status Report Table & Description END -->
-
   <div class="instructions" style="max-width:900px;">
   <div style="display:flex;justify-content:center;gap:60px;flex-wrap:wrap;">
-    <!-- Samsung Internet Browser -->
     <div class="browser-card" id="samsungCard">
       <p style="color: #00ff88; margin-bottom: 12px;">🌐 Recommended 📱 Browsers:</p>
       <img src="Logos/Samsung Internet Browser.png" alt="Samsung Internet Browser Logo" class="browser-logo" style="margin-bottom: 18px;">
       <div class="browser-title" style="margin-bottom: 18px;">Samsung Internet Browser</div>
       <a href="https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser" class="download-button" target="_blank" style="margin-bottom: 0;">📱 Play Store ( Mobile )</a>
     </div>
-    <!-- Google Chrome -->
     <div class="browser-card" id="chromeCard">
       <p style="color: #00ff88; margin-bottom: 12px;">🌐 Recommended 💻 Browsers:</p>
       <img src="Logos/Chrome Logo.png" alt="Chrome Logo" class="browser-logo" style="margin-bottom: 18px;">
@@ -503,7 +507,6 @@
   </div>
 </div>
 
-  <!-- Desktop Instruction Section -->
   <div id="desktopSection" class="step">
     <h3>💻 Desktop:</h3>
     <div id="desktopStep1">
